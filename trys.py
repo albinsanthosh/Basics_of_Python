@@ -1,6 +1,6 @@
 import requests
 
-personal_token = '1bc39f552049b711d3a748c8d8b0d4082f6c86fb'
+personal_token = '1Personal Access Token'
 url = f"https://api.github.com/repos/hashicorp/consul/contributors?access_token={personal_token}"
 response = requests.get(url)
 data = response.json()

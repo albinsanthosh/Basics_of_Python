@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-personal_token = '1bc39f552049b711d3a748c8d8b0d4082f6c86fb'
+personal_token = 'Personal Access Token'
 org_dict = {}
 # file = ('contributors.xlsx')
 # newData = pd.read_excel(file)

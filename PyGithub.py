@@ -3,7 +3,7 @@ from github import Github
 from pprint import pprint
 
 username = "albinsanthosh"
-password = "home2219242"
+password = ""
 
 # authenticate to github
 g = Github(username, password)

@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 e = datetime.datetime.now()
 
-personal_token = '1bc39f552049b711d3a748c8d8b0d4082f6c86fb'
+personal_token = 'Personal Access Token'
 # database_dict={"Unique ID":0, "Repo Name":0, "Domain Name":0, "Count":0, "Date_range_parameter":0, "Date of Run":0}
 database_dict={"Unique_ID":[], "Domain_Name":[], "Date":[], "Date_of_Run":[]}
 

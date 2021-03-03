@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-personal_token = '1bc39f552049b711d3a748c8d8b0d4082f6c86fb'
+personal_token = 'Personal access token'
 since_date = '2021-01-15'
 until_date = '2021-01-30'
 repo_name = 'Hashicorp/consul'

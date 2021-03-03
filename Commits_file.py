@@ -1,10 +1,11 @@
 import requests
 import pandas as pd
 
+access_token="Personal access token"
 df = pd.DataFrame()
 n = 1
 total_commits = 0
-while requests.get(f'https://api.github.com/repos/hashicorp/consul/commits?page={n}&per_page=100&access_token=1bc39f552049b711d3a748c8d8b0d4082f6c86fb').json():
+while requests.get(f'https://api.github.com/repos/hashicorp/consul/commits?page={n}&per_page=100&access_token={access_token}).json():
     info_url = f'https://api.github.com/repos/hashicorp/consul/commits?page={n}&per_page=100&access_token=1bc39f552049b711d3a748c8d8b0d4082f6c86fb'
     commit_info = requests.get(info_url).json()
     no_of_items = len(commit_info)

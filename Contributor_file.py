@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 company_repo = input('Enter the Company/repo:')
-personal_token = '1bc39f552049b711d3a748c8d8b0d4082f6c86fb'
+personal_token = 'Personal access token'
 
 df = pd.DataFrame()
 n = 1
