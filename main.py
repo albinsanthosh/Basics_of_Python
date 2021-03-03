@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-personal_token = 'Personal Access Token'
+personal_token = 'Your Personal token'
 org_dict = {'Misc':{'total_contributions': 0,'unique_contributors': 0, "id": []}}
 
 # Getting all Commits data
@@ -59,4 +59,5 @@ for i in cd['author']:
 for organization in org_dict:
     org_dict[organization].pop('id')
 
+print("\n")
 print(org_dict)
