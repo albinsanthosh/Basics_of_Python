@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-personal_token = '65fc25e46b2a2c63d0eb3a4512ded3706bb907e5'
+personal_token = 'your personal token'
 org_dict = {'Misc':{'total_contributions': 0,'unique_contributors': 0, "id": []}}
 
 # Getting all Commits data
