@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import date
 import json
 
-personal_token = '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'
+personal_token = 'your token'
 # org_dict = {'Misc':{'total_contributions': 0,'unique_contributors': 0, "id": []}}
 
 # Getting all Commits data
