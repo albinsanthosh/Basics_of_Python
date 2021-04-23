@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from datetime import date
 
-personal_token = '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'
+personal_token = 'your personal token'
 # org_dict = {'Misc':{'total_contributions': 0,'unique_contributors': 0, "id": []}}
 
 # Getting all Commits data
